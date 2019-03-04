@@ -9,6 +9,7 @@ This app features a modern ember:
 - SSR with fastboot
 - Sass css preprocessor via ember-cli-sass
 - Tailwind via ember-cli-tailwind (using ember-cli-postcss with the plugins autoprefixer and @fullhuman/postcss-purgecss)
+- Web Manifest via ember-web-app
 
 And a couple of extra handy addons, files and configuration
 
