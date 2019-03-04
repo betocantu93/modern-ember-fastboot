@@ -1,0 +1,13 @@
+<div class="container mx-auto bg-green-lighter h-screen font-sans flex flex-col items-center ">
+  <h1 class="mt-10">Username</h1>
+  <p class="text-2xl">
+    {{this.model.login}}
+  </p>
+  <p class="my-10">
+    <img src={{this.model.avatar_url}} class="h-50 w-50 rounded-full" alt="Github avatar" />
+  </p>
+  <h3># of Public Repos:</h3>
+  <p>
+    {{this.model.public_repos}}
+  </p>
+</div>
