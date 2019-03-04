@@ -1,58 +1,20 @@
 # modern-ember-fastboot
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This app features a modern ember:
 
-## Prerequisites
++ No JQuery
++ No Ember Data (you can add it if you want it)
++ Native es6 classes and decorators
++ ember-fetch
++ SSR with fastboot
++ Sass css preprocessor via ember-cli-sass
++ Tailwind via ember-cli-tailwind (using ember-cli-postcss with the plugins autoprefixer and @fullhuman/postcss-purgecss) 
 
-You will need the following things properly installed on your computer.
+And a couple of extra handy addons or files
++ ember-cli-bundle-analyzer (check your bundle size)
++ ember-auto-import (import npm packages easily)
++ ember-get-config (get env variables easily everywhere)
++ /nodeServer.js and /Procfile for heroky deployment, you can delete these if you prefer to deploy elsewhere
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/)
-* [Yarn](https://yarnpkg.com/)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
 
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd modern-ember-fastboot`
-* `yarn install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `yarn lint:hbs`
-* `yarn lint:js`
-* `yarn lint:js --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+You probably will need to run the blueprint for ember-cli-tailwind... `ember install ember-cli-tailwind` or `ember generate ember-cli-tailwind`  
