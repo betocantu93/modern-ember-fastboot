@@ -6,7 +6,7 @@ This app features modern ember:
 - No Ember Data (you can add it if you want it)
 - Native es6 classes and decorators via ember-decorators
 - ember-fetch
-- SSR with fastboot (using a middleware we only run if we detect any bot 🤖 for SEO and OG tags 🔥)
+- SSR with fastboot (using a middleware we only run SSR if we detect any bot 🤖 for SEO and OG tags 🔥)
 - Sass css preprocessor via ember-cli-sass
 - Tailwind via ember-cli-tailwind (using ember-cli-postcss with the plugins autoprefixer and @fullhuman/postcss-purgecss)
 - Web Manifest via ember-web-app
