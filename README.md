@@ -1,6 +1,6 @@
 # modern-ember-fastboot
 
-This app features a modern ember:
+This app features modern ember:
 
 - No JQuery
 - No Ember Data (you can add it if you want it)
